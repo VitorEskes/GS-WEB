@@ -1,0 +1,11 @@
+{
+  "usuarios": [
+    {
+      "id": "74ff",
+      "nome": "teste",
+      "email": "teste@email.com",
+      "senha": "12345678",
+      "confirmarSenha": "12345678"
+    }
+  ]
+}
