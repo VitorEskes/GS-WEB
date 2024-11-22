@@ -74,25 +74,26 @@ export default function Home() {
     {
       id: 1,
       image: "",
-      title: "Soluções para Energia Solar",
-      description: "Implementação de painéis solares residenciais e comerciais para economia e eficiência.",
-      buttonText: "Saiba Mais"
+      title: "Soluções para conscientizar e economizar",
+      description: "Oferecemos serviços inovadores para promover o uso eficiente e consciente de energia, reduzindo custos e impacto ambiental.",
+      buttonText: "Saiba Mais",
     },
     {
       id: 2,
       image: "",
-      title: "Tecnologia de Energia Eólica",
-      description: "Instalações e manutenção de turbinas eólicas para geração de energia limpa.",
-      buttonText: "Saiba Mais"
+      title: "Venda e instalação de fontes de energia",
+      description: "Instalações e suporte para fontes de energia renováveis, personalizadas para atender às necessidades de cada cliente.",
+      buttonText: "Saiba Mais",
     },
     {
       id: 3,
       image: "",
-      title: "Soluções em Biomassa",
-      description: "Conversão de resíduos em energia sustentável, ajudando a reduzir o desperdício.",
-      buttonText: "Saiba Mais"
+      title: "Mapeamento inteligente para energia renovável",
+      description: "Soluções de inteligência artificial para identificar áreas ideais e otimizar projetos de energia sustentável.",
+      buttonText: "Saiba Mais",
     },
   ];
+  
 
   return (
     <main className="font-poppins overflow-hidden">
@@ -237,9 +238,11 @@ export default function Home() {
                 <p className="text-gray-600 leading-relaxed mb-6">
                   {feature.description}
                 </p>
-                <button className="px-6 py-3 bg-gray-900 hover:bg-gray-800 text-white rounded-full transition-all">
-                  {feature.buttonText}
-                </button>
+                <Link to='solucao'>
+                  <button className="px-6 py-3 bg-gray-900 hover:bg-gray-800 text-white rounded-full transition-all">
+                    {feature.buttonText}
+                  </button>
+                </Link>
               </div>
             </div>
           ))}

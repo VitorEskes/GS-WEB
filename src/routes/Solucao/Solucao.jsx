@@ -10,31 +10,47 @@ export default function Solucao() {
 
   const solucoes = [
     {
-      titulo: "Lorem ipsum dolor sit amet",
-      descricao: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo earum facere alias, voluptas praesentium, nesciunt, dolorem necessitatibus perspiciatis.",
+      titulo: "Eficiência energética na prática",
+      descricao:
+        "Implementamos estratégias inteligentes que ajudam empresas e residências a reduzir o consumo de energia sem comprometer o desempenho. Nossa abordagem combina inovação e responsabilidade ambiental para resultados duradouros.",
       imagemGrande: "/api/placeholder/800/600",
       imagemPequena: "/api/placeholder/400/300",
       beneficios: [
-        "Lorem ipsum dolor sit",
-        "Lorem ipsum dolor sit",
-        "Lorem ipsum dolor sit",
-        "Lorem ipsum dolor sit"
+        "Redução de custos operacionais",
+        "Monitoramento em tempo real",
+        "Análise personalizada de consumo",
+        "Menor impacto ambiental",
       ],
-      tecnologias: ["Lorem ipsum", "Lorem ipsum", "Lorem ipsum"]
+      tecnologias: ["IoT", "Big Data", "Machine Learning"],
     },
     {
-      titulo: "Lorem ipsum dolor sit amet",
-      descricao: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo earum facere alias, voluptas praesentium, nesciunt, dolorem necessitatibus perspiciatis.",
+      titulo: "Fontes renováveis para um futuro sustentável",
+      descricao:
+        "Fornecemos soluções completas para a implementação de sistemas de energia solar e eólica, com suporte técnico especializado e manutenção contínua, garantindo eficiência e sustentabilidade.",
       imagemGrande: "/api/placeholder/800/600",
       imagemPequena: "/api/placeholder/400/300",
       beneficios: [
-        "Lorem ipsum dolor sit",
-        "Lorem ipsum dolor sit",
-        "Lorem ipsum dolor sit",
-        "Lorem ipsum dolor sit"
+        "Economia de energia em longo prazo",
+        "Apoio técnico especializado",
+        "Tecnologia de ponta para monitoramento",
+        "Respeito ao meio ambiente",
       ],
-      tecnologias: ["Lorem ipsum", "Lorem ipsum", "Lorem ipsum"]
-    }
+      tecnologias: ["Painéis solares", "Turbinas eólicas", "Sistemas híbridos"],
+    },
+    {
+      titulo: "IA para mapeamento de energia sustentável",
+      descricao:
+        "Nossa solução utiliza inteligência artificial para analisar dados geoespaciais, identificar áreas com maior potencial para fontes renováveis e projetar planos de instalação otimizados. Ideal para projetos solares e eólicos.",
+      imagemGrande: "/api/placeholder/800/600",
+      imagemPequena: "/api/placeholder/400/300",
+      beneficios: [
+        "Identificação precisa de áreas ideais",
+        "Análise de viabilidade econômica",
+        "Otimização de projetos com IA",
+        "Redução de desperdício e custos",
+      ],
+      tecnologias: ["Geoprocessamento", "Inteligência Artificial", "Dados geoespaciais"],
+    },
   ];
 
   return (
